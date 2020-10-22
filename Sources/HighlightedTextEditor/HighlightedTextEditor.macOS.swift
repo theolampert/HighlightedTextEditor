@@ -175,7 +175,7 @@ public final class CustomTextView: NSView {
         
         let textView                     = NSTextView(frame: .zero, textContainer: textContainer)
         textView.autoresizingMask        = .width
-        textView.backgroundColor         = NSColor.textBackgroundColor
+        textView.backgroundColor         = NSColor.clear
         textView.delegate                = self.delegate
         textView.drawsBackground         = true
         textView.font                    = self.font
